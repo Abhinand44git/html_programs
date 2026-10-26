@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+/* ========================= */
+/* STATIC */
+/* ========================= */
+.header {
+    position: static;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.header h1 {
+    margin: 0;
+}
+/* ========================= */
+/* STICKY */
+/* ========================= */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 2px 8px #cccccc;
+    z-index: 10;
+}
+.navbar a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 20px;
+    font-weight: bold;
+}
+/* ========================= */
+/* HERO */
+/* ========================= */
+.hero {
+    width: 800px;
+    margin: 40px auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #dddddd;
+    border-radius: 15px;
+}
+.hero h2 {
+    font-size: 32px;
+}
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 6px;
+}
+/* ========================= */
+/* GALLERY */
+/* ========================= */
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+.gallery {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    gap: 25px;
+}
+/* ========================= */
+/* RELATIVE */
+/* ========================= */
+.photo-card {
+    position: relative;
+    width: 280px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+/* ========================= */
+/* ABSOLUTE */
+/* ========================= */
+.tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e63946;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+/* ========================= */
+/* PHOTO */
+/* ========================= */
+.photo {
+    height: 180px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.photo-card h3 {
+    margin-bottom: 5px;
+}
+.photo-card p {
+    line-height: 1.5;
+    color: #555;
+}
+/* ========================= */
+/* STATIC CONTENT */
+/* ========================= */
+.about {
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    line-height: 1.7;
+}
+.contact {
+    width: 800px;
+    margin: 30px auto 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+/* ========================= */
+/* FIXED */
+/* ========================= */
+.help {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 55px;
+    height: 55px;
+    background-color: #222;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    z-index: 20;
+}

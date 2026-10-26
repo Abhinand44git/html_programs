@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Form</title>
+    <link rel="stylesheet" href="travel_form.css"> 
+</head>
+<body>
+    <div class="form-container">
+        <h1>Travel Booking Form</h1>
+        <p>Plan yout next adventure with us</p>
+        <form action="thankyou.html"><!--where Form need to be Submitted-->
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="name" placeholder="Enter Your Full Name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" name="phonenumber" placeholder="Enter your Phone Number" required>
+            <label for="destination">ChooseDestination</label>
+            <select name="destination" required>
+                <option value="">--Select Destination--</option>
+                <option value="goa">Goa</option>
+                <option value="kerala">Kerala</option>
+                <option value="tamil nadu">Tamil Nadu</option>
+                <option value="jammu">Jammu And Kashmir</option>
+                <option value="arunachal">Arunachal Pradesh</option>
+            </select>
+            <label for="date">Travel Date</label>
+            <input type="date" name="date" required>
+            <label for="passenger">Passenger Count</label>
+            <input type="number" name="passenger" min="1" max="20" required>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="travel-type" value="solo" required>
+                    Solo
+                </label>
+                <label>
+                    <input type="radio" name="travel-type" value="family" required>
+                    Family
+                </label>
+                <label>
+                    <input type="radio" name="travel-type" value="friends" required>
+                    Friends
+                </label>
+            </div>
+            <label>Additional Services</label>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="services" value="hotel">
+                    Hotel Booking
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="transport">
+                    Transportation
+                </label>
+                <label>
+                    <input type="checkbox" name="services" value="Guide">
+                    Tour Guide
+                </label>
+            </div>
+          <label for="message">Addtional Info</label>
+          <textarea name="message" id="message" placeholder="Enter any Special Requirements" rows="4"></textarea>
+          <div class="buttons">
+            <button type="submit">Submit Booking</button>
+            <button type="reset">Clear Form</button>
+        </div>  
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(menu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+.card{
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(rgb(159, 6, 141), rgb(149, 155, 149), rgb(77, 83, 2), alpha);
+    border-radius: 10px;
+    box-shadow: 0 40px 10px rgb(23, 37, 101);
+}
+h1{
+    text-align: center;
+    color: darkmagenta;
+}
+p{
+    text-align: center;
+    color: rgb(10, 48, 162);
+}
+ul{
+    font-weight: bold;
+    line-height: 2;
+}
+ol{
+    line-height: 2;
+}
+dl{
+    line-height: 1.5;
+}
+dt{
+    font-weight: bold;
+    color: rgb(2, 70, 97);
+}
+dd{
+    color: rgb(1, 62, 55);
+    margin-bottom: 4px;
+}
+button{
+    display: block;
+    margin: 20px auto 0px;
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(129, 209, 18);
+    border-radius: 5px;
+    color: ivory;
+}
+button:hover{
+    background-color: rgb(213, 143, 13);
+    font-weight: bold;
+}

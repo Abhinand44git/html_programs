@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c9f24c;
+    text-align: center;
+}
+h1{
+    color: indigo;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: ghostwhite;
+}
+th,td{
+    border: 5px double black;
+    padding: 12px;
+}
+th{
+    background-color: lemonchiffon;
+    color: chocolate;
+}
+tr:hover{
+    background-color: blue;
+}
+td:last-child{
+    font-weight: bold;
+}
